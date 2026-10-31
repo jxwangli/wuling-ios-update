@@ -2,7 +2,7 @@
   "versionCode": 270,
   "versionName": "ctl-2026-10-31.6",
   "buildTag": "ctl-2026-10-31.6",
-  "updateLog": "占位，随版本更新",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases",
+  "updateLog": "1. MQTT 连接错误修复：VIN 未就绪/取凭证失败自动重试，车辆信息本机缓存。\n2. 应用更新改读 iOS 自己的更新仓库，不再连安卓上游。\n3. 意见反馈删除内置邮箱，纯复制到剪贴板。\n4. 无感控车：回前台 12 秒连不上自动转常规连接；服务发现/订阅 15 秒超时兜底；通知订阅失败自动重试。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-10-31.6",
   "forceUpdate": false
 }
