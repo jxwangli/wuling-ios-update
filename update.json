@@ -1,8 +1,8 @@
 {
-  "versionCode": 273,
-  "versionName": "ctl-2026-11-01.2",
-  "buildTag": "ctl-2026-11-01.2",
-  "updateLog": "断网报错优化：红色报错改一句人话（网络不可用/超时/连不上服务器），原始错误只进日志。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.2",
+  "versionCode": 274,
+  "versionName": "ctl-2026-11-01.3",
+  "buildTag": "ctl-2026-11-01.3",
+  "updateLog": "无感控车：后台远离上锁修复（后台执行时间+重连判据，后台宽限 10s）；进后台取消前台看门狗；冷却改时间戳。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.3",
   "forceUpdate": false
 }
