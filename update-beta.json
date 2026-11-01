@@ -1,8 +1,8 @@
 {
-  "versionCode": 275,
-  "versionName": "ctl-2026-11-01.4",
-  "buildTag": "ctl-2026-11-01.4",
-  "updateLog": "无感控车「远离上锁」根因修复：走远后断线重连曾被误判为「靠近」自动解锁（日志实锤），现在后台断线重连先观察信号 4 秒区分方向；离开上锁不再凭本地缓存跳过，宽限期到即云端补锁（幂等）。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.4",
+  "versionCode": 276,
+  "versionName": "ctl-2026-11-01.5",
+  "buildTag": "ctl-2026-11-01.5",
+  "updateLog": "离开上锁误拦修复：充电时云端回报 keyStatus=2（已启动）但档位 P、踏板 0，旧判定把离开上锁兜底拦掉；改用「确实在行驶」（D/R 档或踏板）判定。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.5",
   "forceUpdate": false
 }
