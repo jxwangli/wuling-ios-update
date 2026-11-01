@@ -1,8 +1,8 @@
 {
-  "versionCode": 276,
-  "versionName": "ctl-2026-11-01.5",
-  "buildTag": "ctl-2026-11-01.5",
-  "updateLog": "离开上锁误拦修复：充电时云端回报 keyStatus=2（已启动）但档位 P、踏板 0，旧判定把离开上锁兜底拦掉；改用「确实在行驶」（D/R 档或踏板）判定。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.5",
+  "versionCode": 277,
+  "versionName": "ctl-2026-11-01.6",
+  "buildTag": "ctl-2026-11-01.6",
+  "updateLog": "后台远离上锁新增信号强度复核：断开后扫描广播包 RSSI（12s），信号持续弱立即锁车、仍较强取消本次上锁、无样本按断开 10s 兜底。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.6",
   "forceUpdate": false
 }
