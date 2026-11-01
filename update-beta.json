@@ -1,8 +1,8 @@
 {
-  "versionCode": 272,
-  "versionName": "ctl-2026-11-01.1",
-  "buildTag": "ctl-2026-11-01.1",
-  "updateLog": "启动诊断补强：无崩溃记录时明确提示系统级终止（偶发无害）；卡住步骤配人话解释；主界面构建阶段单独标记。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.1",
+  "versionCode": 273,
+  "versionName": "ctl-2026-11-01.2",
+  "buildTag": "ctl-2026-11-01.2",
+  "updateLog": "断网报错优化：红色报错改一句人话（网络不可用/超时/连不上服务器），原始错误只进日志。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.2",
   "forceUpdate": false
 }
