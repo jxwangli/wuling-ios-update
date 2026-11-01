@@ -1,8 +1,8 @@
 {
-  "versionCode": 274,
-  "versionName": "ctl-2026-11-01.3",
-  "buildTag": "ctl-2026-11-01.3",
-  "updateLog": "无感控车：后台远离上锁修复（后台执行时间+重连判据，后台宽限 10s）；进后台取消前台看门狗；冷却改时间戳。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.3",
+  "versionCode": 275,
+  "versionName": "ctl-2026-11-01.4",
+  "buildTag": "ctl-2026-11-01.4",
+  "updateLog": "无感控车「远离上锁」根因修复：走远后断线重连曾被误判为「靠近」自动解锁（日志实锤），现在后台断线重连先观察信号 4 秒区分方向；离开上锁不再凭本地缓存跳过，宽限期到即云端补锁（幂等）。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.4",
   "forceUpdate": false
 }
