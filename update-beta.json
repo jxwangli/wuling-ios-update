@@ -1,8 +1,8 @@
 {
-  "versionCode": 281,
-  "versionName": "ctl-2026-11-02.4",
-  "buildTag": "ctl-2026-11-02.4",
-  "updateLog": "解锁后没开门却被自动锁回修复：信号基线缺失时阈值退化、后台采样两阈值之间白等 10s。现在基线用原始读数并在断线时补齐，无基线时取消阈值改为门限−4，刚解锁 60s 内不自动上锁。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-02.4",
+  "versionCode": 282,
+  "versionName": "ctl-2026-11-02.5",
+  "buildTag": "ctl-2026-11-02.5",
+  "updateLog": "解锁后没开门被锁回补充修复：刚自动解锁 2 分钟内蓝牙断开不立即兜底锁车（顺延 35s 复查）；本机指令后 8s 内车况视为滞后，不误报外部锁态变化。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-02.5",
   "forceUpdate": false
 }
