@@ -1,8 +1,8 @@
 {
-  "versionCode": 277,
-  "versionName": "ctl-2026-11-01.6",
-  "buildTag": "ctl-2026-11-01.6",
-  "updateLog": "后台远离上锁新增信号强度复核：断开后扫描广播包 RSSI（12s），信号持续弱立即锁车、仍较强取消本次上锁、无样本按断开 10s 兜底。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-01.6",
+  "versionCode": 278,
+  "versionName": "ctl-2026-11-02.1",
+  "buildTag": "ctl-2026-11-02.1",
+  "updateLog": "方向判定改用相对基线：本车靠近时信号仅 -82~-85，与上锁门限 -84 重叠，旧逻辑把站在车边判成「正在离开」（解锁后重连即被锁回）。现在以人在车边时的信号为基线，明显变弱（≥8dB）才算离开。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-02.1",
   "forceUpdate": false
 }
