@@ -1,8 +1,8 @@
 {
-  "versionCode": 282,
-  "versionName": "ctl-2026-11-02.5",
-  "buildTag": "ctl-2026-11-02.5",
-  "updateLog": "解锁后没开门被锁回补充修复：刚自动解锁 2 分钟内蓝牙断开不立即兜底锁车（顺延 35s 复查）；本机指令后 8s 内车况视为滞后，不误报外部锁态变化。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-02.5",
+  "versionCode": 283,
+  "versionName": "ctl-2026-11-03.1",
+  "buildTag": "ctl-2026-11-03.1",
+  "updateLog": "靠近解锁后绕车不再触发上锁计时：解锁时刻无信号样本时挂起待采，首个样本到达即补记基线，有效上锁门限变为基线−8（约 -93）。另确认绕车后落锁是车端防盗重锁。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-03.1",
   "forceUpdate": false
 }
