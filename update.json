@@ -1,8 +1,8 @@
 {
-  "versionCode": 279,
-  "versionName": "ctl-2026-11-02.2",
-  "buildTag": "ctl-2026-11-02.2",
-  "updateLog": "新增外部锁态礼让窗口：检测到非本机造成的锁态变化（原车钥匙/其它手机）后 30 秒内不做反向自动操作，多把钥匙不互相拆台。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-02.2",
+  "versionCode": 280,
+  "versionName": "ctl-2026-11-02.3",
+  "buildTag": "ctl-2026-11-02.3",
+  "updateLog": "后台靠近解锁失效修复：长时间未刷新的车况（如上午「行驶中」）到晚上仍被采信，走近车辆时解锁被拦。行驶状态判定加 15 分钟时效，过期按未知处理。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-02.3",
   "forceUpdate": false
 }
