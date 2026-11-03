@@ -1,8 +1,8 @@
 {
-  "versionCode": 283,
-  "versionName": "ctl-2026-11-03.1",
-  "buildTag": "ctl-2026-11-03.1",
-  "updateLog": "靠近解锁后绕车不再触发上锁计时：解锁时刻无信号样本时挂起待采，首个样本到达即补记基线，有效上锁门限变为基线−8（约 -93）。另确认绕车后落锁是车端防盗重锁。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-03.1",
+  "versionCode": 284,
+  "versionName": "ctl-2026-11-03.2",
+  "buildTag": "ctl-2026-11-03.2",
+  "updateLog": "根治远离不上锁与隔空解锁：后台重连自动解锁前核验人在车边（断线前/实时信号明显偏弱则不解锁）；车边基线拒收过弱样本，防止离开判定被污染失效；云端补锁网络失败自动重试 2 次，复查定时器申请后台执行时间。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-03.2",
   "forceUpdate": false
 }
