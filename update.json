@@ -1,8 +1,8 @@
 {
-  "versionCode": 285,
-  "versionName": "ctl-2026-11-03.3",
-  "buildTag": "ctl-2026-11-03.3",
-  "updateLog": "前台走远也会被重连再解锁的修复：前台后台统一规则——信号证据弱于车边水平（≤ 门限−4）时先观察实时 RSSI 再决定，恢复车边水平才解锁，仍偏弱不解锁并云端补锁；观察无样本时维持现状。配合 .2 的基线拒收与云端补锁重试。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-03.3",
+  "versionCode": 286,
+  "versionName": "ctl-2026-11-03.4",
+  "buildTag": "ctl-2026-11-03.4",
+  "updateLog": "远离不上锁根因修复：有离开证据（断线前信号 ≤ 基线−8）立即补锁不再顺延；回前台不再无条件撤销待执行补锁；后台宽限期压到 5 秒避免云端请求被后台时间掐断。配合基线拒收过弱样本与补锁失败重试 2 次，走远场景补锁链路可完整跑完。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-03.4",
   "forceUpdate": false
 }
