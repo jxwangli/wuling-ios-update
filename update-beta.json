@@ -1,8 +1,8 @@
 {
-  "versionCode": 286,
-  "versionName": "ctl-2026-11-03.4",
-  "buildTag": "ctl-2026-11-03.4",
-  "updateLog": "远离不上锁根因修复：有离开证据（断线前信号 ≤ 基线−8）立即补锁不再顺延；回前台不再无条件撤销待执行补锁；后台宽限期压到 5 秒避免云端请求被后台时间掐断。配合基线拒收过弱样本与补锁失败重试 2 次，走远场景补锁链路可完整跑完。",
-  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-03.4",
+  "versionCode": 287,
+  "versionName": "ctl-2026-11-04.1",
+  "buildTag": "ctl-2026-11-04.1",
+  "updateLog": "后台离开补锁被拆台的修复：云端补锁请求在途（含重试）或本机刚请求上锁尚无车端回报（45s 内）时，重连鉴权与观察窗一律不自动解锁，等云端锁车结果，杜绝「补锁发出 35 秒后被重连自动解锁拆台」。",
+  "apkUrl": "https://github.com/jxwangli/WulingiOS/releases/tag/ctl-2026-11-04.1",
   "forceUpdate": false
 }
